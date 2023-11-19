@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'outfit',sans-serif;
+    
+}
+body {
+    background-color: hsl(217, 54%, 11%);
+    width: 1440px;
+    
+}
+
+.card {
+    width: 400px;
+    background-color: hsl(216, 50%, 16%);
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin: auto;
+    padding: 20px 0;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+.cube {
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    
+}
+#cube {
+    width: 300px;
+    height: 300px; 
+}
+.cubic {
+    width: 300px;
+    height: 300px;
+    background-image: url('./Images/image-equilibrium.jpg');
+    background-repeat: no-repeat;
+    background-size:contain ;
+}
+.cuboid {
+    width: 100%;
+    height: 100%;
+    background-color: hsla(178, 100%, 70%, 0.5);
+}
+#cube:hover {
+    width: 100%;
+    height: 100%;
+    background-color: hsl(178, 100%, 70%);
+}
+.eq {
+    margin-top: 10px;
+    width: 300px;
+    color: hsl(0, 0%, 100%);
+}
+.eq1 {
+    margin-top: 10px;
+    width: 300px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+
+.parag {
+    font-size: 18px;
+    max-width:300px ;
+    margin-top: 10px;
+    color: hsl(215, 51%, 70%);
+}
+.date {
+    max-width: 300px;
+    margin-top: 10px;
+    margin-right: 80px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.time {
+    margin-right: 70px;
+    color: hsl(178, 100%, 70%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.fa, .fas {
+    margin-right:5px;
+    height: 5px;
+}
+.hour {
+    margin-left: 10px;
+    color: hsl(215, 51%, 70%);
+    
+}
+hr {
+    width: 245px;
+    margin-right: 45px;
+    margin-top:10px;
+    background-color:hsl(215, 32%, 27%);
+}
+.avatar {
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    
+}
+.down {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.caption {
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 8px;
+    color: hsl(215, 51%, 70%);
+    
+}
+.spn {
+    margin-right: 90px;
+    margin-top: 20px;
+    color: hsl(0, 0%, 100%);
+}
+.spn1 {
+    margin-right: 90px;
+    margin-top: 20px;
+    color: hsl(0, 0%, 100%);
+}
+.spn1:hover {
+    color: hsl(178, 100%, 70%);
+}
+
+
+
+header a {
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    font-family: fantasy;
+
+}
+a {
+    text-decoration: none;
+}
+.eq1:hover {
+    color: hsl(178, 100%, 70%);
+}
